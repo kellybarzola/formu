@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Permitir selecciones multiples</h2>
+
+    <p>Utilize el atributo multiple para permitir que el usuario seleccione mas de un valor</p>
+
+    <form action="/action_page.php">
+        <label for="cars">Elige un coche</label>
+        <select name="cars" id="cars" size="4" multiple>
+            <option value="Volvo">Volvo</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Fiat" selected>Fiat</option>
+            <option value="Audi">Audi</option>
+        </select>
+        
+        <input type="submit">
+    </form>
+    <p>mantenga precionado el boton Ctrl (Windows)/Comando (Mac) para seleccionar varias opciones</p>
+</body>
+</html>
